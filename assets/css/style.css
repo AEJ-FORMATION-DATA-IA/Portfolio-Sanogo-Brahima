@@ -1,0 +1,310 @@
+*{
+    text-decoration: none;
+}
+/* Les couleurs */
+.igs-bg-orange{
+    background-color: #ed825b;
+}
+.igs-bg-dark-blue{
+    background-color:#0a224c;
+}
+.igs-bg-hov-dark-blue:hover{
+    background-color:#0a224c;
+}
+.igs-dark-blue{
+    color: #0a224c;
+}
+.igs-bg-trans-blue{
+    background-color: #0a224c80;
+}
+.igs-white{
+    color: #fff;
+}
+.igs-hover-bg-white:hover{
+    background-color: #fff;
+}
+.igs-hover-txt-darkblue:hover{
+    color: #0a224c;
+}
+
+.igs-bg-white{
+    background-color: #fff;
+}
+
+
+/* Les margins */
+.igs-margin{
+    margin: 0;
+}
+.igs-mg-30px{
+    margin: 30px;
+}
+.igs-mg-10px{
+    margin: 10px;
+}
+.igs-mg-top-3px{
+    margin-top: 3px;
+}
+.igs-margin-left{
+    margin-left: 20px;
+}
+.igs-margin-right{
+    margin-right: 90px;
+}
+.igs-margin-right-50{
+    margin-right: 50px;
+}
+
+
+/* Les paddings */
+.igs-padding{
+    padding: 0;
+}
+.igs-pad-3px{
+    padding:3px;
+}
+.igs-pad-10px{
+    padding:10px;
+}
+.igs-pad-4px{
+    padding:4px;
+}
+
+
+/* Les éléments flex */
+.igs-flex{
+    display: flex;
+}
+.igs-row{
+    flex-direction: row;
+}.igs-row-wrap{
+    flex-flow: row wrap;
+}
+.igs-ali-ite-center{
+    align-items: center;
+}
+.igs-column{
+    flex-direction: column;
+}
+.igs-col-wrap{
+    flex-flow: column wrap;
+}
+.igs-space-bet{
+    justify-content: space-between;
+}
+.igs-jus-cont-center{
+    justify-content: center;
+}
+.igs-space-aro{
+    justify-content: space-around;
+}
+
+/* Display flex */
+.igs-block{
+    display: block;
+}
+
+/* les bordures */
+.igs-bord-bot{
+    border-bottom: 1px solid;
+}
+.igs-menu-bord-rad{
+    border-radius: 7px;
+}
+.igs-bord-rad-9px{
+    border-radius: 9px;
+}
+.igs-bord-tp-wht{
+    border: 3px #fff;
+}
+.igs-btn-hov-bod:hover{
+    border: 1px solid #fff;
+}
+.igs-btn-bord-none{
+    border: none;
+}
+.igs-bord-rid-6px{
+    border: 6px double #0a224c;
+}
+.igs-border-1px-soli{
+    border: 1px solid ;
+}
+
+
+/* les propriétés background */
+.igs-bgimage{
+    background:url("../images/light-code.jpeg") ;}
+.igs-bg-size{
+    background-size: cover;
+}
+.igs-bg-position{
+    background-position: center;
+}
+.igs-bg-repeat{
+    background-repeat: no-repeat;
+}
+.igs-bg-att{
+    background-attachment: fixed;
+}
+.igs-proj-img-hover:hover{
+    opacity: 10%;
+}
+.igs-prj1-bgimage{
+    background: url("../images/projet.jpeg");
+}
+.igs-logo-wdth{
+    width: 50px;
+}
+.igs-logo-hgt{
+    height: 50px;
+}
+
+
+
+
+/* le curseur */
+.igs-curs-pointer{
+    cursor: pointer;
+}
+
+
+/* les propriétés de mise en forme */
+.igs-ma-photo-wdt{
+    width: 30%;
+}
+.igs-ma-photo-hgt{
+    height: 170px;
+}
+.igs-div-height{
+    height: 60vh;
+}
+.igs-nav-height{
+    height: 10vh;
+}
+.igs-width-full{
+    width: 100%;
+}
+.igs-proj1-img{
+    width: 30%;
+}
+.igs-proj1-img-div{
+    width: 30%;
+}
+.igs-proj1-hgt{
+    height: 40vh;
+}
+.igs-w-16{
+    width: 160px;
+}
+.igs-h-17{
+    height: 17px;
+}
+.igs-comp-width{
+    width: 30%;
+}
+.igs-wdth-50{
+    width: 50%;
+}
+
+/* Ajouter un filtre à l'image au survol */
+.igs-img-hov:hover{
+    filter :brightness(20%)
+}
+
+
+/* les éléments de décoration de texte */
+.igs-txt-dec-no{
+    text-decoration: none;
+}
+.igs-txt-hgt{
+    line-height: 30px;
+}
+.igs-upper{
+    text-transform: uppercase;
+}
+.igs-txt-center{
+    text-align: center;
+}
+.igs-txt-right{
+    text-align: right;
+}
+
+
+/* Les propriétés de position */
+.igs-posi-fixed{
+    position: fixed;
+}
+.igs-float-right{
+    float: right;
+}
+.igs-img-relative{
+    position: relative;
+}
+.igs-absolute{
+    position: absolute;
+}
+.igs-top{
+    top: 100px;
+}
+.igs-left{
+    left: 50px;
+}
+.igs-vert-alig{
+    vertical-align: text-bottom;
+}
+
+/* Les propriétés d'opacité */
+.igs-txt-opa{
+    opacity: 0;
+}
+.igs-txt-opa:hover{
+    opacity: 1;
+}
+
+/* les polices */
+.igs-arial{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.igs-ft-size-12px{
+    font-size: 12px;
+}
+.igs-ft-size-20px{
+    font-size: 20px;
+}
+
+
+/* Les animations */
+.igs-trans{
+    transition: .2s linear;
+}
+.igs-anim-tiltle-content::after{
+    content: " Brahima";
+    animation: textanim 15s linear infinite;
+}
+.igs-anim-tiltle-animation::after{
+    animation: textanim 15s linear infinite;
+}
+@keyframes textanim{
+    0%{
+        content: " un developpeur web et mobile";
+    }
+    25%{
+        content: " un data scientist";
+    }
+    50%{
+        content: " un data analist";
+    }
+    75%{
+        content: "  un developpeur data intelligence artificielle";
+    }
+}
+
+
+
+
+
+
+
+
+
+
